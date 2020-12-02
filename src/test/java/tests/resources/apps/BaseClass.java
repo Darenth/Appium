@@ -123,7 +123,7 @@ public class BaseClass {
 
     @BeforeTest
     public void tearDown() throws MalformedURLException {
-        openCalculator();
+        openCalculator();//
     }
 
     @Test
